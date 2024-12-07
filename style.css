@@ -1,0 +1,224 @@
+
+#mainContainer{
+    height: 30rem;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 7px grey;
+    text-align: center;
+    margin: auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+input[type = number]{
+    border: 2px solid blue;
+    background-color: rgb(186, 186, 238);
+    color: blue;
+    font-size: 3rem;
+
+    width: 8rem;
+    margin: 1rem;
+    border-radius: 10px;
+
+}
+
+#confirmBtn{
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: hsl(240, 79%, 18%);
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 0.7rem;
+    border: none;
+}
+
+table{
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.firstContainer > label{
+    font-size: 2rem;
+    font-weight: 800;
+    color: hsl(246, 82%, 24%);
+}
+#confirmBtn:hover{
+    background-color: hsl(240, 79%, 48%);
+}
+#confirmBtn:active{
+    background-color: hsl(240, 79%, 68%);
+}
+
+th,td{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#tableContainer > p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* -------------------------end of 7.1 prcatical-------------------------- */
+
+/* 7.2 practical starts from here */
+
+#bigNumContainer{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 7px grey;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    height: 17rem;
+
+}
+
+
+#big3Btn{
+    font-size: 1.5rem;
+    color: white;
+    background-color: hsl(240, 79%, 18%);
+    padding: 2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 30%;
+
+}
+#big3Btn:hover{
+    background-color: hsl(240, 79%, 48%);
+}
+
+#big3Btn:active{
+    background-color: hsl(240, 79%, 68%);
+}
+
+#biggNumb{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 30%;
+    
+}
+#bigNumContainer > label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 20%;
+}
+
+/* -------------------------end of practical 7.2------------------------- */
+/* Start of practical 7.3 */
+/* Factorial CSS */
+
+.factorialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 7px grey;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 20px;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.factorialContainer > h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.factorialContainer > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.factorialContainer > input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.factorialContainer > #factorialForm > button {
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: hsl(240, 79%, 18%);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.factorialContainer > #factorialForm > button:hover {
+    background-color: hsl(240, 79%, 48%);
+}
+
+.factorialContainer > #factorialResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+#factorialForm > label {
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+/* 7.4 Sum and Average Program CSS */
+  
+.sumAverageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 7px grey;
+    margin: auto;
+    margin-bottom: 3rem;
+
+    padding: 20px 30px;
+    border-radius: 1rem;
+  }
+  
+.sumAverageContainer > h1 {
+    color: #333;
+  }
+  
+.sumAverageContainer > button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(240, 79%, 18%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+.sumAverageContainer > button:hover {
+    background-color: hsl(240, 79%, 48%);
+  }
+  
+.sumAverageContainer > .hidden {
+    display: none;
+  }
+  
+  .sumAverageContainer >  p {
+    font-size: 5rem;
+    color: #555;
+  }
+  
+
+

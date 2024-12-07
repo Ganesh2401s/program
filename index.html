@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <title>Javascript Programs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--  7 Write event-driven programs in Javascript for the following: 
+      1. Enter a number and on click of a button print its multiplication Table.
+      2. Print the largest of three numbers entered by the user.
+      3. End the factorial of a number entered by the user.
+      4. Enter a list of positive numbers using the prompt terminated by 
+         a zero. Find the sunm  and average of these numbers. -->
+         
+    <!--  Practical 7.1 starts from here. -->
+    <div id="mainContainer">
+
+        <div class="firstContainer" id="MultiplyTable">
+            <label for="numberInput"> Enter a Number to print it's Multiplication Table : </label>
+            <input type="number" name="userNumberInput" id="numberInput" min="1" max="1000" value="0" required> <br>
+
+            <button type="button" id="confirmBtn"> Confirm </button>
+        </div>
+
+        <div id="tableContainer"></div>
+    </div>
+
+    <!--7.2 practical starts from here -->
+
+    <div class="biggestNumber" id="bigNumContainer">
+        <label>Enter three numbers in given input fields:</label>
+        <input type="number" name="userInput1" id="userNumInput1" required>
+        <input type="number" name="userInput2" id="userNumInput2" required>
+        <input type="number" name="userInput3" id="userNumInput3" required>
+        <button type="button" id="big3Btn" onclick="findLargest()">Click here to find largest of three numbers</button>
+
+        <p id="biggNumb"></p>
+
+    </div>
+    <!-- Practical 7.2 ends here -->
+
+    <!-- Practical 7.3 starts from here -->
+    <div class="factorialContainer">
+        <h1>Factorial Calculator</h1>
+        <form id="factorialForm">
+            <label for="number">Enter a number:</label>
+            <input type="number" id="number" name="number" min="0" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <div id="factorialResult"></div>
+    </div>
+
+    <!-- Practical 7.4 starts from here. -->
+    <div class="sumAverageContainer">
+        <h1>Sum and Average Calculator</h1>
+        <button id="start">Start</button>
+        <div id="SumAverageResult" class="hidden">
+            <p id="sum"></p>
+            <p id="average"></p>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
